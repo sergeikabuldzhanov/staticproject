@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "devserver": "live-server",
-    "build": "mkdir public && cp index.html script.js public"
+    "build": "mkdir public && cp index.html script.js public && echo '<div>BUILT</div>' >> public/index.html"
   },
   "repository": {
     "type": "git",
