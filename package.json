@@ -1,0 +1,25 @@
+{
+  "name": "staticproject",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "devserver": "live-server",
+    "build": "mkdir -p public && cp index.html script.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sergeikabuldzhanov/staticproject.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sergeikabuldzhanov/staticproject/issues"
+  },
+  "homepage": "https://github.com/sergeikabuldzhanov/staticproject#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  }
+}
